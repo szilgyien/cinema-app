@@ -1,0 +1,4 @@
+__pycache__/
+receipts/*.txt
+.venv/
+.python-version

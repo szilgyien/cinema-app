@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Dune: Part Two",
+        "genre": "Sci-Fi",
+        "duration": 166,
+        "ticket_price": 3200
+    },
+    {
+        "id": 2,
+        "title": "Inside Out 2",
+        "genre": "Animation",
+        "duration": 96,
+        "ticket_price": 2800
+    },
+    {
+        "id": 3,
+        "title": "The Batman",
+        "genre": "Action",
+        "duration": 176,
+        "ticket_price": 3400
+    },
+    {
+        "id": 4,
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "duration": 169,
+        "ticket_price": 3000
+    },
+    {
+        "id": 5,
+        "title": "Kung Fu Panda 4",
+        "genre": "Animation",
+        "duration": 94,
+        "ticket_price": 2700
+    },
+    {
+        "id": 6,
+        "title": "Deadpool & Wolverine",
+        "genre": "Action",
+        "duration": 128,
+        "ticket_price": 3500
+    },
+    {
+        "id": 7,
+        "title": "Wonka",
+        "genre": "Family",
+        "duration": 116,
+        "ticket_price": 2900
+    },
+    {
+        "id": 8,
+        "title": "Oppenheimer",
+        "genre": "Drama",
+        "duration": 180,
+        "ticket_price": 3300
+    },
+    {
+        "id": 9,
+        "title": "Spider-Man: Across the Spider-Verse",
+        "genre": "Animation",
+        "duration": 140,
+        "ticket_price": 3000
+    },
+    {
+        "id": 10,
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "duration": 148,
+        "ticket_price": 3100
+    }
+]
