@@ -5,16 +5,18 @@ def load_movies(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return json.load(file)
     except FileNotFoundError:
-        print(f"Hiba: A fájl nem található: {file_path}")
+        print(f"Error: File not found: {file_path}")
         return []
+
 
 def show_movies(movies):
     print("=== AVAILABLE MOVIES ===")
     print()
     for movie in movies:
         print(f"{movie['id']}. {movie['title']} | {movie['genre']} | {movie['duration']} min | {movie['ticket_price']} Ft")
-
-if __name__ == "__main__":
-    movies = load_movies("data/movies.json")
-    if movies:
-        show_movies(movies)
+        
+def find_movie_by_id(movies, movie_id):
+    for movie in movies:
+        if movie.get('id') == movie_id:
+            return movie
+    return None
